@@ -9,17 +9,12 @@ const Buttons = (props) => {
           style={styles.buttonStyle}
           onPress={props.pause}
         >
-          <Text style={styles.buttonText}>Pause</Text>
-        </TouchableOpacity>
-        <TouchableOpacity
-          style={styles.buttonStyle}
-          onPress={props.reset}
-        >
-          <Text style={styles.buttonText}>Reset</Text>
+          <Text style={styles.buttonText}>Stop</Text>
         </TouchableOpacity>
       </View>
     );
-  } else {
+  } 
+  else {
     return (
       <View style={styles.container}>
         <TouchableOpacity
@@ -44,9 +39,10 @@ const styles = StyleSheet.create({
   buttonStyle: {
     alignItems: "center",
     backgroundColor: "#FFA500",
-    padding: 30,
+    padding: 20,
     flexDirection: "row",
-    marginRight: 10
+    marginRight: 10,
+    height: 80,
   },
   buttonText: {
     color: "white",

@@ -1,17 +1,20 @@
-import { ScrollView, StyleSheet } from "react-native";
-import PomodoroTimer from "./components/PomodoroTimer";
+import { View, StyleSheet } from "react-native";
+import Pomodoro from "./components/Pomodoro";
 
 const App = () => {
   return (
-    <ScrollView style={styles.container}>
-      <PomodoroTimer />
-    </ScrollView>
+    <View style={styles.container}>
+      <Pomodoro />
+    </View>
   );
 }
 
 const styles = StyleSheet.create({
   container: {
     flex: 1,
+    alignItems: 'center',
+    justifyContent: 'center',
+    color: '#000'
   },
 });
 

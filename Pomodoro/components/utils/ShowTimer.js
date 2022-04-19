@@ -1,7 +1,7 @@
 import { Component } from "react";
 import { StyleSheet, Text, View } from "react-native";
 
-class TimerDisplay extends Component {
+class ShowTimer extends Component {
   render() {
     return (
       <View style={styles.container}>
@@ -17,7 +17,7 @@ class TimerDisplay extends Component {
   }
 }
 
-export default TimerDisplay;
+export default ShowTimer;
 
 const styles = StyleSheet.create({
   container: {
@@ -27,6 +27,6 @@ const styles = StyleSheet.create({
   },
   textStyle: {
     fontSize: 50,
-	fontWeight: 'bold',
+    fontWeight: "bold",
   },
 });

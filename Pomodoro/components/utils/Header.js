@@ -3,17 +3,17 @@ import { StyleSheet, Text } from "react-native";
 
 class Header extends Component {
   handleDisplay = () => {
-    if (this.props.intervalType === "Working") {
+    if (this.props.status === "work") {
       if (this.props.running === true) {
         return "Work";
       } else {
-        return "Time to work!";
+        return "Work";
       }
     } else {
       if (this.props.running === true) {
         return "Break time";
       } else {
-        return "Relax";
+        return "Break time";
       }
     }
   };
@@ -29,7 +29,6 @@ const styles = StyleSheet.create({
     marginTop: 50,
     fontWeight: "500",
     flex: 1,
-    alignItems: "center",
   },
 });
 

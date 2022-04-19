@@ -1,8 +1,8 @@
 import {Component} from "react";
 import { View, StyleSheet } from "react-native";
-import Header from "./Header";
-import TimerDisplay from "./TimerDisplay";
-import Buttons from "./Buttons";
+import Header from "./utils/Header";
+import ShowTimer from "./utils/ShowTimer";
+import Buttons from "./utils/Buttons";
 
 class Timer extends Component {
   constructor(props) {
@@ -25,13 +25,12 @@ class Timer extends Component {
       <View style={styles.container}>
         <Header
           running={this.state.running}
-          intervalType={this.props.intervalType}
+          status={this.props.status}
         />
-        <TimerDisplay time={this.state.time} />
+        <ShowTimer time={this.state.time} />
         <Buttons
           play={this.handlePlay}
-          pause={this.handlePause}
-          reset={this.handleReset}
+          pause={this.handleStop}
           running={this.state.running}
         />
       </View>
@@ -58,18 +57,10 @@ class Timer extends Component {
     }, 1000);
   };
 
-  handlePause = () => {
+  handleStop = () => {
     clearInterval(this.timerId);
     this.setState({
       running: false,
-    });
-  };
-
-  handleReset = () => {
-    clearInterval(this.timerId);
-    this.setState({
-      running: false,
-      time: this.props.period * 60,
     });
   };
 }
@@ -80,6 +71,5 @@ const styles = StyleSheet.create({
 	container: {
 		flex: 1,
 		alignItems: 'center',
-		// justifyContent: 'space-evently'
 	}
 })
