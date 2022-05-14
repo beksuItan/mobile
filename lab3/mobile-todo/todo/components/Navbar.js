@@ -10,7 +10,7 @@ const Navbar = ({ title }) => {
 
 const styles = StyleSheet.create({
   header: {
-    backgroundColor: "red",
+    backgroundColor: "#088F8F",
     height: 80, 
     alignItems: 'center',
     justifyContent: 'flex-end',

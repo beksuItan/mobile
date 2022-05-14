@@ -1,0 +1,59 @@
+{
+    "category": [
+        {
+            "id": 1,
+            "name": "category 1"
+        },
+        {
+            "id": 2,
+            "name": "category 2"
+        },
+        {
+            "id": 3,
+            "name": "category 3"
+        },
+        {
+            "id": 4,
+            "name": "category 4"
+        }
+    ],
+    "news": [
+        {
+            "id": 1,
+            "title": "4 Reasons Why Elon Musk Buying Twitter Could Be a Good Thing",
+            "content": "Since Elon Musk's offer to buy Twitter was accepted, the internet has been rather divided. Here are four reasons the purchase could be a good thing.",
+            "categoryId": 1 
+        },
+        {
+            "id": 2,
+            "title": "Defining The Next Generation Of ESG Investing",
+            "content": "It’s clear that the importance of ESG issues are no longer just the prerogative of the socially conscious, but those seeking top financial returns as well.",
+            "categoryId": 1
+        },
+        {
+            "id": 3,
+            "title": "4 Reasons Why Elon Musk Buying Twitter Could Be a Good Thing",
+            "content": "Since Elon Musk's offer to buy Twitter was accepted, the internet has been rather divided. Here are four reasons the purchase could be a good thing.",
+            "categoryId": 2
+        },
+        {
+            "id": 4,
+            "title": "4 Reasons Why Elon Musk Buying Twitter Could Be a Good Thing",
+            "content": "Since Elon Musk's offer to buy Twitter was accepted, the internet has been rather divided. Here are four reasons the purchase could be a good thing.",
+            "categoryId": 2
+        },
+        {
+            "id": 5,
+            "title": "4 Reasons Why Elon Musk Buying Twitter Could Be a Good Thing",
+            "content": "Since Elon Musk's offer to buy Twitter was accepted, the internet has been rather divided. Here are four reasons the purchase could be a good thing.",
+            "categoryId": 3
+        },
+        {
+            "id": 6,
+            "title": "4 Reasons Why Elon Musk Buying Twitter Could Be a Good Thing",
+            "content": "Since Elon Musk's offer to buy Twitter was accepted, the internet has been rather divided. Here are four reasons the purchase could be a good thing.",
+            "categoryId": 3
+        }
+
+    ]
+}

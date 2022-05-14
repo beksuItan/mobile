@@ -10,39 +10,18 @@ const App = () => {
     {
       "id": 1,
       "title": "delectus aut autem",
-      "day": "Feb 5th at 2:30pm",
       "completed": false
     },
     {
       "id": 2,
       "title": "quis ut nam facilis et officia qui",
-      "day": "Feb 5th at 2:30pm",
       "completed": false
     },
     {
       "id": 3,
       "title": "fugiat veniam minus",
-      "day": "Feb 5th at 2:30pm",
       "completed": false
     },
-    {
-      "id": 4,
-      "title": "et porro tempora",
-      "day": "Feb 5th at 2:30pm",
-      "completed": false
-    },
-    {
-      "id": 5,
-      "title": "laboriosam mollitia et enim quasi adipisci quia provent illum",
-      "day": "Feb 5th at 2:30pm",
-      "completed": false
-    },
-    {
-      "id": 6,
-      "title": "qui ullam ratione quibusdam voluptatem quia omnis",
-      "day": "Feb 5th at 2:30pm",
-      "completed": false
-    }
   ]);
 
   const addTodo = (todo) => {
